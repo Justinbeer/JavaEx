@@ -53,6 +53,7 @@ public class EnumEx {
 			break;
 		case FRIDAY:
 			action = "열공 후 불금";
+			
 			break;
 		case SATURDAY:
 			action = "주말";

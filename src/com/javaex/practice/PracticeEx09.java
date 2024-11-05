@@ -2,7 +2,7 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class practiceEx09 {
+public class PracticeEx09 {
 
 	public static void main(String[] args) {
 		// 태어난 년도를 입력받습니다.

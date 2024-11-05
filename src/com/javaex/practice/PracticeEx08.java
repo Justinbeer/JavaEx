@@ -2,7 +2,7 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class practiceEx08 {
+public class PracticeEx08 {
 
 	public static void main(String[] args) {
 		// 사용자로 키와 몸무게를 받아 BMI를 계산한 후에 저체중, 정상체중, 과체중 을 구분하여 출력하는 프로그램을 만드시오.(정상체중의 범위는 18.5 <= BMI <= 24.9)

@@ -2,7 +2,7 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class practiceEx06 {
+public class PracticeEx06 {
 
 	public static void main(String[] args) {
 		// 나이를 입력받아 19세 이상 65세 미만이면 1번그룹 그외에는 2번그룹으로 출력하는 프로그램을 작성하시오.

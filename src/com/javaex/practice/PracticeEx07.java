@@ -2,7 +2,7 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class practiceEx07 {
+public class PracticeEx07 {
 
 	public static void main(String[] args) {
 		// 나이를 입력받아	 아래와같이 입장료가 출력되도록 프로그램을 작성하시오.

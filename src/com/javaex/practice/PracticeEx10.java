@@ -2,7 +2,7 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class practiceEx10 {
+public class PracticeEx10 {
 
 	public static void main(String[] args) {
 		// 두개의 숫자를 입력받아 큰수와 작은수를 분류하여 출력하세요.

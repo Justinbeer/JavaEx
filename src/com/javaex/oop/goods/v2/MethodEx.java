@@ -25,7 +25,13 @@ public class MethodEx {
 		
 		// 방법 2. 가변 인수를 사용
 		System.out.println("getSumVar : " + getSumVar(1, 2, 3, 4, 5, 6, 7,8));
+		
+		// 일반 매개변수와 가변 매개변수를 함께 사용할 때
+		// 일반 매개변수 먼저, 가변인수 나중에 선언
+		printSum("합산값 : ", 1, 2, 3, 4, 5, 6, 7, 8);
+		
 	}
+	
 	// 방법 1
 	private static double getSumArr(double[] values) {
 		double total = 0;
@@ -47,6 +53,11 @@ public class MethodEx {
 		}
 		return total;
 	}
+	
+	private static void printSum(String message, double ... values) {
+		System.out.println(message + " : " + getSumVar(values));
+	}
+	
 	
 	
 	// 매개변수 x -> 파라미터 없음

@@ -116,12 +116,7 @@ public class ArrayEx {
 							// 원본배열, 시작인덱스, 타겟배열, 타겟배열의시작인덱스, 복사할길이
 		System.out.println("복사본 : " + Arrays.toString(target));
 		
-		
-		
-		
-		
-		
-		
+
 		
 		
 	}

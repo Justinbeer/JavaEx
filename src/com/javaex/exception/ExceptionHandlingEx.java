@@ -8,44 +8,44 @@ public class ExceptionHandlingEx {
 	public static void main(String[] args) {
 //		arithExceptionEx();
 		arrayException();
+		nullPointerExceptionEx();
 	}
-	
+
 	private static void arrayException() {
-		int [] intArray = new int [] {3, 6, 9};
-		
+		int[] intArray = new int[] { 3, 6, 9 };
+
 		try {
 			System.out.println(intArray[3]);
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.err.println("Error : " + e.getMessage());
 		}
-	} 
-	
-	private static void nullPointException() {
+	}
+
+	private static void nullPointerExceptionEx() {
 		String str = new String("Hello Java");
 		try {
-		str = null;
-		System.out.println(str.toUpperCase());
+			str = null;
+			System.out.println(str.toUpperCase());
 		} catch (NullPointerException e) {
 			System.out.println("널입니다.");
 		}
 	}
-	
-	
+
 	private static void arithExceptionEx() {
 		// 스캐너에서 정수입력
 		// 100을 정수로 나눈 값을 출력
 		double result = 0;
 		int num;
-		
+
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("정수를 입력하세요 : ");
-		
+
 		try {
-				// 예외 발생 가능영역
-				num = scanner.nextInt();
-				result = 100 / num;
-				
-				System.out.println(result);
+			// 예외 발생 가능영역
+			num = scanner.nextInt();
+			result = 100 / num;
+
+			System.out.println(result);
 		} catch (InputMismatchException e) {
 			System.err.println("정수를 입력해주세요.");
 		} catch (ArithmeticException e) {
@@ -61,7 +61,5 @@ public class ExceptionHandlingEx {
 		scanner.close();
 		System.out.println("프로그램 종료!");
 	}
-	
-	
 
 }

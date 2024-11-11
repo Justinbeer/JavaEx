@@ -61,7 +61,7 @@ public class Practice07 {
 		System.out.println("10원: " + ten + "개");
 		System.out.println("5원: " + five + "개");
 		System.out.println("1원: " + one + "개");
-
+		
 	}
 
 }

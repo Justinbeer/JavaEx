@@ -6,8 +6,30 @@ import java.util.Scanner;
 public class ExceptionHandlingEx {
 
 	public static void main(String[] args) {
-		arithExceptionEx();
+//		arithExceptionEx();
+		arrayException();
 	}
+	
+	private static void arrayException() {
+		int [] intArray = new int [] {3, 6, 9};
+		
+		try {
+			System.out.println(intArray[3]);
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.err.println("Error : " + e.getMessage());
+		}
+	} 
+	
+	private static void nullPointException() {
+		String str = new String("Hello Java");
+		try {
+		str = null;
+		System.out.println(str.toUpperCase());
+		} catch (NullPointerException e) {
+			System.out.println("널입니다.");
+		}
+	}
+	
 	
 	private static void arithExceptionEx() {
 		// 스캐너에서 정수입력
